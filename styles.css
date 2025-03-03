@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* .javaScriptContent h2 {
+  margin: 20px;
+} */
+
+.javaScriptContent,
+.javaScriptContent h2 {
+  /* border: 1px solid black; */
+  margin: 20px;
+  padding: 10px;
+  height: 50vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 20px;
+  width: 60%;
+  height: 20%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(108, 186, 253);
+  box-shadow: 5px 5px 5px;
+}
+
+button:hover {
+  background-color: rgb(19, 141, 248);
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+.jsDisplay p {
+  margin-top: 10%;
+}
