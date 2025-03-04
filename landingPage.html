@@ -13,19 +13,16 @@
   <body>
     <h1>Week 9 Discussion</h1>
     <div class="javaScriptContent">
-      <h2>
+      <h2 id="changeBox">
         Click the button below to see an example of one of the many ways
         JavaScript can add interactivity to your page.
       </h2>
       <button
         type="button"
-        id="jsButton">
+        id="jsButton"
+        onclick='document.getElementById("changeBox").innerHTML = "You can change the text of containers with the click of a button."'>
         Click me!
       </button>
-      <div class="jsDisplay">
-        <p></p>
-      </div>
     </div>
   </body>
-  <script src="script.js"></script>
 </html>

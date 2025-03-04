@@ -7,14 +7,16 @@
 body {
   height: 100vh;
   width: 100vw;
+  background-color: black;
+  color: whitesmoke;
 }
 
 h1 {
-}
-
-/* .javaScriptContent h2 {
   margin: 20px;
-} */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .javaScriptContent,
 .javaScriptContent h2 {
@@ -35,16 +37,12 @@ button {
   height: 20%;
   border-radius: 10px;
   border: none;
-  background-color: rgb(108, 186, 253);
-  box-shadow: 5px 5px 5px;
+  background-color: rgb(10, 135, 245);
+  box-shadow: 5px 5px 5px white;
 }
 
 button:hover {
-  background-color: rgb(19, 141, 248);
+  background-color: rgb(1, 78, 146);
   transform: translate(5px, 5px);
   box-shadow: none;
-}
-
-.jsDisplay p {
-  margin-top: 10%;
 }
